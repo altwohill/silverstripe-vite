@@ -1,6 +1,6 @@
 {
     "name": "swordfox/vite",
-    "description": "Vite Frontend Tooling, Lightning Fast HMR for SilverStripe 4",
+    "description": "Vite Frontend Tooling, Lightning Fast HMR for SilverStripe",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
@@ -15,9 +15,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4 || ^8.0",
-        "silverstripe/framework": "^4",
-        "silverstripe/cms": "^4"
+        "silverstripe/framework": "^4 || 5^",
+        "silverstripe/cms": "^4 || 5^"
     },
     "autoload": {
         "psr-4": {
