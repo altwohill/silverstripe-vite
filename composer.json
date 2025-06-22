@@ -15,8 +15,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "silverstripe/framework": "^4 || 5^",
-        "silverstripe/cms": "^4 || 5^"
+        "silverstripe/framework": "^4 || ^5",
+        "silverstripe/cms": "^4 || ^5"
     },
     "autoload": {
         "psr-4": {
